@@ -1,0 +1,6 @@
+framework module DryAlipay_iOS {
+  umbrella header "DryAlipay-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
