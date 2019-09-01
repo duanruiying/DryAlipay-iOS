@@ -6,7 +6,7 @@ iOS: 简化支付宝支付
 
 ## Prerequisites
 * iOS 10.0 +
-* Swift 5.0+
+* ObjC、Swift
 
 ## Installation
 * pod 'DryAlipay-iOS'
