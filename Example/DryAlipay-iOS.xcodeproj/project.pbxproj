@@ -198,6 +198,12 @@
 				CLASSPREFIX = Dry;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = duanruiying;
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8PWWH32WMP;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryAlipay-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -419,14 +425,17 @@
 			baseConfigurationReference = 937576258433FB683760AC4B /* Pods-DryAlipay-iOS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8PWWH32WMP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryAlipay-iOS/DryAlipay-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryAlipay-iOS/DryAlipay-iOS-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,7 +446,7 @@
 			baseConfigurationReference = ED7F86FA81B4C4AAD3CF0A41 /* Pods-DryAlipay-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XLE6PLCUL5;
+				DEVELOPMENT_TEAM = 8PWWH32WMP;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryAlipay-iOS/DryAlipay-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryAlipay-iOS/DryAlipay-iOS-Info.plist";
