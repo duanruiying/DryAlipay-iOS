@@ -641,7 +641,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryAlipay_iOS;
 				PRODUCT_NAME = DryAlipay_iOS;
@@ -675,7 +675,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryAlipay_iOS;
 				PRODUCT_NAME = DryAlipay_iOS;
