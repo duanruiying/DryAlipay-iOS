@@ -1,15 +1,22 @@
 PODS:
-  - DryAlipay-iOS (0.0.2)
+  - DryAlipay-iOS (0.0.2):
+    - UTDID
+  - UTDID (1.0.0)
 
 DEPENDENCIES:
   - DryAlipay-iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UTDID
 
 EXTERNAL SOURCES:
   DryAlipay-iOS:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DryAlipay-iOS: c9c97f63b9effe82e0b8cd243ae345d4a18cb5b3
+  DryAlipay-iOS: 2cef7182c8103c4d0753e3eea6cd145f3fe4bdcf
+  UTDID: 05c4737c8cf5c210e86d0235570816ed00e023e8
 
 PODFILE CHECKSUM: e0e54c6164e4047cfaa086fd6056d6f1f7998209
 

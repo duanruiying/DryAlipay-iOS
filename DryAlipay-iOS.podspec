@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
   #s.swift_version          = '5'
   s.ios.deployment_target   = '10.0'
   s.requires_arc            = true
-  s.user_target_xcconfig    = {'OTHER_LDFLAGS' => ['-w']}
+  s.user_target_xcconfig    = {'OTHER_LDFLAGS' => ['-w'], 'ENABLE_BITCODE' => 'NO'}
   
   # Pod
   s.static_framework        = true
-  s.pod_target_xcconfig     = {'OTHER_LDFLAGS' => ['-w']}
+  s.pod_target_xcconfig     = {'OTHER_LDFLAGS' => ['-w'], 'ENABLE_BITCODE' => 'NO'}
   
   # Code
   s.source_files        = 'DryAlipay-iOS/Classes/Code/**/*'
@@ -47,5 +47,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'DryAlipay-iOS/Classes/Frameworks/*.framework'
   s.resources = 'DryAlipay-iOS/Classes/Bundle/*.bundle'
   #s.dependency 'AlipaySDK-iOS'
+  s.dependency 'UTDID'
   
 end
