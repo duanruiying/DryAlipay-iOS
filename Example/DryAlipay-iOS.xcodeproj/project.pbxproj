@@ -178,7 +178,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				DC178EF26CE8F01EFB108040 /* [CP] Copy Pods Resources */,
+				E788DE6B68E4AD7B85A7BEA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,11 +198,6 @@
 				CLASSPREFIX = Dry;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = duanruiying;
-				TargetAttributes = {
-					6003F589195388D20070C39A = {
-						DevelopmentTeam = XLE6PLCUL5;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "DryAlipay-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -259,14 +254,14 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DC178EF26CE8F01EFB108040 /* [CP] Copy Pods Resources */ = {
+		E788DE6B68E4AD7B85A7BEA8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example-resources.sh",
-				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/../../DryAlipay-iOS/Classes/Bundle/AlipaySDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -425,7 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = XLE6PLCUL5;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DryAlipay-iOS/DryAlipay-iOS-Prefix.pch";
 				INFOPLIST_FILE = "DryAlipay-iOS/DryAlipay-iOS-Info.plist";

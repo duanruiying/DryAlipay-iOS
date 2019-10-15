@@ -2,7 +2,7 @@
 iOS: 简化支付宝支付 
 
 ## 官网
-* [蚂蚁金服开放平台 ](https://docs.open.alipay.com/54/104509) 更新时间2019-08-14
+* [蚂蚁金服开放平台 ](https://docs.open.alipay.com/54/104509) 更新时间2019-08-14(v15.6.5)
 
 ## Prerequisites
 * iOS 10.0 +
