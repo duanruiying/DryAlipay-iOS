@@ -1,6 +1,6 @@
 {
   "name": "DryAlipay-iOS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "summary": "DryAlipay-iOS",
   "homepage": "https://github.com/duanruiying/DryAlipay-iOS",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/duanruiying/DryAlipay-iOS.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "description": "TODO: iOS简化支付宝支付.",
   "platforms": {
@@ -22,15 +22,13 @@
   "user_target_xcconfig": {
     "OTHER_LDFLAGS": [
       "-w"
-    ],
-    "ENABLE_BITCODE": "NO"
+    ]
   },
   "static_framework": true,
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": [
       "-w"
-    ],
-    "ENABLE_BITCODE": "NO"
+    ]
   },
   "source_files": "DryAlipay-iOS/Classes/Code/**/*",
   "public_header_files": "DryAlipay-iOS/Classes/Code/Public/**/*.h",
@@ -49,10 +47,8 @@
     "CoreTelephony",
     "SystemConfiguration"
   ],
-  "vendored_frameworks": "DryAlipay-iOS/Classes/Frameworks/*.framework",
-  "resources": "DryAlipay-iOS/Classes/Bundle/*.bundle",
   "dependencies": {
-    "UTDID": [
+    "AlipaySDK-iOS": [
 
     ]
   }

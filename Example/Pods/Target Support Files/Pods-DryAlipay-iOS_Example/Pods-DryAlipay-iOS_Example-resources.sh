@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../DryAlipay-iOS/Classes/Bundle/AlipaySDK.bundle"
+  install_resource "${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../DryAlipay-iOS/Classes/Bundle/AlipaySDK.bundle"
+  install_resource "${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

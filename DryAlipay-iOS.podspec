@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryAlipay-iOS'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.summary     = 'DryAlipay-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryAlipay-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
   #s.swift_version          = '5'
   s.ios.deployment_target   = '10.0'
   s.requires_arc            = true
-  s.user_target_xcconfig    = {'OTHER_LDFLAGS' => ['-w'], 'ENABLE_BITCODE' => 'NO'}
+  s.user_target_xcconfig    = {'OTHER_LDFLAGS' => ['-w']}
   
   # Pod
   s.static_framework        = true
-  s.pod_target_xcconfig     = {'OTHER_LDFLAGS' => ['-w'], 'ENABLE_BITCODE' => 'NO'}
+  s.pod_target_xcconfig     = {'OTHER_LDFLAGS' => ['-w']}
   
   # Code
   s.source_files        = 'DryAlipay-iOS/Classes/Code/**/*'
@@ -44,9 +44,12 @@ Pod::Spec.new do |s|
   
   # ThirdParty
   #s.vendored_libraries  = ''
-  s.vendored_frameworks = 'DryAlipay-iOS/Classes/Frameworks/*.framework'
-  s.resources = 'DryAlipay-iOS/Classes/Bundle/*.bundle'
-  #s.dependency 'AlipaySDK-iOS'
-  s.dependency 'UTDID'
+  
+  # (本地导入未带UTDID的AlipaySDK，远程导入UTDID，解决UTDID冲突问题)
+  #s.vendored_frameworks = 'DryAlipay-iOS/Classes/Frameworks/*.framework'
+  #s.resources = 'DryAlipay-iOS/Classes/Bundle/*.bundle'
+  #s.dependency 'UTDID'
+  
+  s.dependency 'AlipaySDK-iOS'
   
 end

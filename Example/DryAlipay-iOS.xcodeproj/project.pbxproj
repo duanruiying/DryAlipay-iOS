@@ -267,7 +267,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example-resources.sh",
-				"${PODS_ROOT}/../../DryAlipay-iOS/Classes/Bundle/AlipaySDK.bundle",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

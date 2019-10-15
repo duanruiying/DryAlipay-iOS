@@ -1,5 +1,5 @@
 # DryAlipay-iOS
-iOS: 简化支付宝支付(本地导入未带UTDID的AlipaySDK，远程导入UTDID，解决UTDID冲突问题)
+iOS: 简化支付宝支付
 
 ## 官网
 * [蚂蚁金服开放平台 ](https://docs.open.alipay.com/54/104509) 更新时间2019-08-14(v15.6.5)
