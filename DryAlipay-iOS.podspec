@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryAlipay-iOS'
-  s.version     = '0.0.4'
+  s.version     = '0.0.1'
   s.summary     = 'DryAlipay-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryAlipay-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
@@ -45,11 +45,11 @@ Pod::Spec.new do |s|
   # ThirdParty
   #s.vendored_libraries  = ''
   
-  # (本地导入未带UTDID的AlipaySDK，远程导入UTDID，解决UTDID冲突问题)
+  # (本地导入)
   #s.vendored_frameworks = 'DryAlipay-iOS/Classes/Frameworks/*.framework'
   #s.resources = 'DryAlipay-iOS/Classes/Bundle/*.bundle'
   #s.dependency 'UTDID'
-  
+  # (远程导入)
   s.dependency 'AlipaySDK-iOS'
   
 end
