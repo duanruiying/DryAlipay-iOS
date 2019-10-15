@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = "AlipaySDK-iOS";
+			productName = "AlipaySDK-iOS";
 		};
 /* End PBXAggregateTarget section */
 
@@ -62,24 +63,24 @@
 		1839D232BC9F5BCDA7F0AEA8C714E0E7 /* Pods-DryAlipay-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAlipay-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2AE159F47FB31A8A97163F3289D892C9 /* DryAlipay-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DryAlipay-iOS-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33A7C78FE3E24B18A3EBE567EAB61933 /* Pods_DryAlipay_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryAlipay_iOS_Example.framework; path = "Pods-DryAlipay-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A7C78FE3E24B18A3EBE567EAB61933 /* Pods_DryAlipay_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DryAlipay_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A875A5386A05B6D683C29B6827231F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		427035431706CA80CCED29D0CC465933 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		4FA770894A6DF52733EB5628B3E23BFE /* DryAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryAlipay.h; path = "DryAlipay-iOS/Classes/Code/Public/DryAlipay.h"; sourceTree = "<group>"; };
-		530009FC104CB07704CD8DA9542D5BAE /* DryAlipay-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "DryAlipay-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		530009FC104CB07704CD8DA9542D5BAE /* DryAlipay-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "DryAlipay-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		647BBBE88049C894FF987311DB7B778F /* DryAlipay-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DryAlipay-iOS-Info.plist"; sourceTree = "<group>"; };
 		710495234B6CEA22AA70D6BD3D1BAC9C /* Pods-DryAlipay-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAlipay-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		82C3303252F76C7465744A62488F8BA5 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
-		87844D88B8DD11422E1D5DF749502E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87844D88B8DD11422E1D5DF749502E78 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		928D84CA64673C81CAF5350A183699BF /* DryAlipay-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryAlipay-iOS.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AC3324789CB38C540F9EC25130862423 /* DryAlipay-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "DryAlipay-iOS.modulemap"; sourceTree = "<group>"; };
 		AE99AA3E7CE3557A40A41A5DF31F4F5A /* DryAlipay-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DryAlipay-iOS-dummy.m"; sourceTree = "<group>"; };
 		C15BBDFFE76D4E4D30A5276091B09A59 /* Pods-DryAlipay-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DryAlipay-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C790AC5DA6FC9C26DDF5B00C48C31E93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C790AC5DA6FC9C26DDF5B00C48C31E93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C859EE524D57026064C2B57AB8DB92B1 /* Pods-DryAlipay-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DryAlipay-iOS_Example-Info.plist"; sourceTree = "<group>"; };
 		E89DEB5A7A6A5F42BB5C4AE8DD2D1491 /* Pods-DryAlipay-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DryAlipay-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		FC88F509300BD9A505042A00F8AB5C36 /* DryAlipay_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DryAlipay_iOS.framework; path = "DryAlipay-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC88F509300BD9A505042A00F8AB5C36 /* DryAlipay_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DryAlipay_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE289688D6742D8D2340B0E934154F5 /* DryAlipay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DryAlipay.m; path = "DryAlipay-iOS/Classes/Code/Public/DryAlipay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -213,7 +214,6 @@
 				2FADA59F0CE63617BBE3E91C31107B05 /* Resources */,
 				1C06137C8AC15718A9BCF1E5AF105632 /* Support Files */,
 			);
-			name = "AlipaySDK-iOS";
 			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
@@ -615,8 +615,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -642,6 +641,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.0.4;
 				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryAlipay_iOS;
 				PRODUCT_NAME = DryAlipay_iOS;
@@ -675,6 +675,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.0.4;
 				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
 				PRODUCT_MODULE_NAME = DryAlipay_iOS;
 				PRODUCT_NAME = DryAlipay_iOS;

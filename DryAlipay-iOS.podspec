@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryAlipay-iOS'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.summary     = 'DryAlipay-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryAlipay-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
