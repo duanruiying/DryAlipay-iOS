@@ -43,13 +43,13 @@ typedef void (^BlockDryAlipayCode)  (DryAlipayCode code);
 /// @注释 在app被杀模式下，通过这个方法获取支付结果
 /// @参数 completion: 支付状态码回调，详情查看DryAlipayCode
 /// @返回 BOOL
-+ (void)handleOpenURL:(NSURL *)url completion:(BlockDryAlipayCode)completion;
++ (void)handleOpenURL:(NSURL *)url completion:(nullable BlockDryAlipayCode)completion;
 
 /// @说明 原生应用发起支付
 /// @注释 如果外部存在支付宝钱包，则直接跳转到支付宝钱包付款；不存在的场景下，在 SDK 内部进行 H5 支付
 /// @参数 scheme:     app绑定的scheme("ap+AppID")
 /// @参数 oder:       订单信息(由服务端下发)
-/// @参数 completion: 支付状态码回调，详情查看DryAlipayCode
+/// @参数 completion: 支付状态码回调，详情查看DryAlipayCode(只有当handleOpenURL接口的completion为nil时会使用这个bolock)
 /// @返回 void
 + (void)payWithScheme:(NSString *)scheme
                  oder:(NSString *)oder

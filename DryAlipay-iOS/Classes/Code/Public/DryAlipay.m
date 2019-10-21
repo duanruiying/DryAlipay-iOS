@@ -13,17 +13,19 @@
 @implementation DryAlipay
 
 /// 处理支付宝通过URL启动App时传递的数据
-+ (void)handleOpenURL:(NSURL *)url completion:(BlockDryAlipayCode)completion {
-    
-    /// 检查数据
-    if (!completion) {
-        return;
-    }
++ (void)handleOpenURL:(NSURL *)url completion:(nullable BlockDryAlipayCode)completion {
     
     /// 支付结果回调
-    [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
-        [DryAlipay resultCallback:resultDic completion:completion];
-    }];
+    if (!completion) {
+        
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:nil];
+        
+    } else {
+        
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+            [DryAlipay resultCallback:resultDic completion:completion];
+        }];
+    }
 }
 
 /// 原生应用发起支付
@@ -42,7 +44,7 @@
         return;
     }
     
-    /// 发起支付
+    /// 发起支付(跳转支付宝支付时只有当processOrderWithPaymentResult接口的completionBlock为nil时会使用这个bolock)
     [[AlipaySDK defaultService] payOrder:oder fromScheme:scheme callback:^(NSDictionary *resultDic) {
         [DryAlipay resultCallback:resultDic completion:completion];
     }];
