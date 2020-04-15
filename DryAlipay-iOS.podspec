@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # Git
   s.name        = 'DryAlipay-iOS'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'DryAlipay-iOS'
   s.homepage    = 'https://github.com/duanruiying/DryAlipay-iOS'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   DESC
   
   # User
-  #s.swift_version          = '5'
+  #s.swift_version          = '5.0'
   s.ios.deployment_target   = '10.0'
   s.requires_arc            = true
   s.user_target_xcconfig    = {'OTHER_LDFLAGS' => ['-w']}
