@@ -1,5 +1,5 @@
 PODS:
-  - AlipaySDK-iOS (15.6.8)
+  - AlipaySDK-iOS (15.7.9)
   - DryAlipay-iOS (1.0.2):
     - AlipaySDK-iOS
 
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - DryAlipay-iOS (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AlipaySDK-iOS
 
 EXTERNAL SOURCES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
+  AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
   DryAlipay-iOS: 1cf444d34c056fd1a884dd27f2adbd4e880d3750
 
-PODFILE CHECKSUM: e0e54c6164e4047cfaa086fd6056d6f1f7998209
+PODFILE CHECKSUM: 49c7dd121e85394009efa78c422a5af7ca140f2c
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

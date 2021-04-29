@@ -19,32 +19,32 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1AA33765883C2FE26D19FA03E70F207E /* Pods-DryAlipay-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D86627C0852AA1B7D8BFB4BE191BA /* Pods-DryAlipay-iOS_Example-dummy.m */; };
-		62A19F478580935D408A2BB7F5E88DB5 /* Pods-DryAlipay-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E89DEB5A7A6A5F42BB5C4AE8DD2D1491 /* Pods-DryAlipay-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8152669FA6D5252CFEDD82962F3B5BDD /* DryAlipay-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D58E57B9DA428F0B4C4C3FAB3869BAB1 /* DryAlipay-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8793F3FA222A873B4E114F6A55ECDDEF /* DryAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE3FC746A9A218CDF5FFF8654A63336 /* DryAlipay.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8F109968DAB99C0E834C0CD8AA378AB2 /* DryAlipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3030BBC3353C3BA3892942A654010E7F /* DryAlipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5938A9452ADF8424B7F943D67D34C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CDC068AEF8F23D806555DCD11F2CA083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EC079669697EF3BD50E1431924837EE1 /* DryAlipay-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EDB109EA7399A6F263724DDB3E22B7 /* DryAlipay-iOS-dummy.m */; };
+		77250BB73809B689BB98E9E98F18EF4B /* DryAlipay-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D58E57B9DA428F0B4C4C3FAB3869BAB1 /* DryAlipay-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80546A94410E34E93502D02B85B13746 /* DryAlipay-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EDB109EA7399A6F263724DDB3E22B7 /* DryAlipay-iOS-dummy.m */; };
+		95DCEFD0241067ABE7692DBFF0C67D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9D1C6E168CF39CC79CA3E64A5CEF946B /* DryAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE3FC746A9A218CDF5FFF8654A63336 /* DryAlipay.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C671C376900893E35504AC2C2E76811D /* Pods-DryAlipay-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E89DEB5A7A6A5F42BB5C4AE8DD2D1491 /* Pods-DryAlipay-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A3A257747DB747F76B3BED7E130FC3 /* DryAlipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3030BBC3353C3BA3892942A654010E7F /* DryAlipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E230D3F6BEC09D21173FF74AE2EB4A39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E31641520E6A3E469AAC6988E345EA8E /* Pods-DryAlipay-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D86627C0852AA1B7D8BFB4BE191BA /* Pods-DryAlipay-iOS_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		018C010D6C7A1B856D0E20206D266D40 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
-			remoteInfo = "AlipaySDK-iOS";
-		};
-		66FBA3983FBC1000FF9E229386EB33FA /* PBXContainerItemProxy */ = {
+		674FE83810CCC37928F0057CA1EF2D1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2CC5139C8DF2052124C0870EA01DFF9F;
 			remoteInfo = "DryAlipay-iOS";
 		};
-		9199BE2BDA1DD75B92A0733AA549A75C /* PBXContainerItemProxy */ = {
+		B40DC8E6D34633B0A88D528EA7BAFDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		CB4822A10B1BFB59C569500234276926 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -64,9 +64,9 @@
 		1B64A6C338C474D6ABF68059FC12B595 /* DryAlipay-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DryAlipay-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		2F7B1C03A7D95CFD5EB7FD931D8737DD /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		3030BBC3353C3BA3892942A654010E7F /* DryAlipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DryAlipay.h; path = "DryAlipay-iOS/Classes/Code/Public/DryAlipay.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33A7C78FE3E24B18A3EBE567EAB61933 /* Pods_DryAlipay_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DryAlipay_iOS_Example.framework; path = "Pods-DryAlipay-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		710495234B6CEA22AA70D6BD3D1BAC9C /* Pods-DryAlipay-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DryAlipay-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B58FC23B04266CB1F063E6C9C03FA26 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1996F5EAFC56D9D8A592E26060EF67A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
@@ -86,19 +86,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5239575963B2F9E8A981707FC6A0D54F /* Frameworks */ = {
+		A0AEAB077EA09FE90124615E6D218E10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5938A9452ADF8424B7F943D67D34C56 /* Foundation.framework in Frameworks */,
+				E230D3F6BEC09D21173FF74AE2EB4A39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2D3591A4DEDBFA92BD1771081FCA58 /* Frameworks */ = {
+		C26FC09953EF92012499A50BFD131609 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDC068AEF8F23D806555DCD11F2CA083 /* Foundation.framework in Frameworks */,
+				95DCEFD0241067ABE7692DBFF0C67D73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +147,14 @@
 				7B58FC23B04266CB1F063E6C9C03FA26 /* AlipaySDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		69DA2936111C144C8F98F54A787F6774 /* Pods-DryAlipay-iOS_Example */ = {
@@ -199,14 +207,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -232,7 +232,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -260,20 +260,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8227792C42529C3CF27E1ED021915C29 /* Headers */ = {
+		2AA9E456A0F99389A103B62FCB9171B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62A19F478580935D408A2BB7F5E88DB5 /* Pods-DryAlipay-iOS_Example-umbrella.h in Headers */,
+				77250BB73809B689BB98E9E98F18EF4B /* DryAlipay-iOS-umbrella.h in Headers */,
+				C8A3A257747DB747F76B3BED7E130FC3 /* DryAlipay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC57E7C42E7B43EE4F94439357484F78 /* Headers */ = {
+		4BAEECAB8B9B8526F18F2B9646A0A062 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8152669FA6D5252CFEDD82962F3B5BDD /* DryAlipay-iOS-umbrella.h in Headers */,
-				8F109968DAB99C0E834C0CD8AA378AB2 /* DryAlipay.h in Headers */,
+				C671C376900893E35504AC2C2E76811D /* Pods-DryAlipay-iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +282,17 @@
 /* Begin PBXNativeTarget section */
 		2CC5139C8DF2052124C0870EA01DFF9F /* DryAlipay-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D4013F6BA3F68AE8C5417C2649ADE47 /* Build configuration list for PBXNativeTarget "DryAlipay-iOS" */;
+			buildConfigurationList = 33F48FB6FB4E053236BD2B17D90C909A /* Build configuration list for PBXNativeTarget "DryAlipay-iOS" */;
 			buildPhases = (
-				CC57E7C42E7B43EE4F94439357484F78 /* Headers */,
-				D0D8F6556AE46AB894CD52FB16110E93 /* Sources */,
-				CC2D3591A4DEDBFA92BD1771081FCA58 /* Frameworks */,
-				0B61706E88E7EBA1C2E24ECB8E3B9B7C /* Resources */,
+				2AA9E456A0F99389A103B62FCB9171B9 /* Headers */,
+				D685A6B79E548068F9A58D0A23F3DADE /* Sources */,
+				C26FC09953EF92012499A50BFD131609 /* Frameworks */,
+				58068399A35BCDB2F5E21A3CDC36A123 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				75FFE18DAE70CED0347788D737774ABD /* PBXTargetDependency */,
+				1303B28FBC387E328BB6615E9DA2C7C4 /* PBXTargetDependency */,
 			);
 			name = "DryAlipay-iOS";
 			productName = "DryAlipay-iOS";
@@ -301,18 +301,18 @@
 		};
 		FA03FBCB443564D694185BD44E99C820 /* Pods-DryAlipay-iOS_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F1207D2DE93975E045E4336BD3A753E /* Build configuration list for PBXNativeTarget "Pods-DryAlipay-iOS_Example" */;
+			buildConfigurationList = 0FF0F6A66BA9AAEDEC2ABDE50C20E57F /* Build configuration list for PBXNativeTarget "Pods-DryAlipay-iOS_Example" */;
 			buildPhases = (
-				8227792C42529C3CF27E1ED021915C29 /* Headers */,
-				E3BCF389164612A7A8E97C1681101E91 /* Sources */,
-				5239575963B2F9E8A981707FC6A0D54F /* Frameworks */,
-				7553F2BC9923D924DC3520C1F3AEDB98 /* Resources */,
+				4BAEECAB8B9B8526F18F2B9646A0A062 /* Headers */,
+				214F13D61D190B66BA6574747A08DC3E /* Sources */,
+				A0AEAB077EA09FE90124615E6D218E10 /* Frameworks */,
+				B9394CE93F8960AA3C6F439353C1EC55 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B4376EB79FB4777E4172B99CE7C107B /* PBXTargetDependency */,
-				7F040C0C53D80541BBF887CD2FB45945 /* PBXTargetDependency */,
+				8042C42009BE95F9ED2AB47B6B411094 /* PBXTargetDependency */,
+				70B3DB1B71F219B7ECD612E5CD65D55B /* PBXTargetDependency */,
 			);
 			name = "Pods-DryAlipay-iOS_Example";
 			productName = "Pods-DryAlipay-iOS_Example";
@@ -349,14 +349,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0B61706E88E7EBA1C2E24ECB8E3B9B7C /* Resources */ = {
+		58068399A35BCDB2F5E21A3CDC36A123 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7553F2BC9923D924DC3520C1F3AEDB98 /* Resources */ = {
+		B9394CE93F8960AA3C6F439353C1EC55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,51 +366,130 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D0D8F6556AE46AB894CD52FB16110E93 /* Sources */ = {
+		214F13D61D190B66BA6574747A08DC3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC079669697EF3BD50E1431924837EE1 /* DryAlipay-iOS-dummy.m in Sources */,
-				8793F3FA222A873B4E114F6A55ECDDEF /* DryAlipay.m in Sources */,
+				E31641520E6A3E469AAC6988E345EA8E /* Pods-DryAlipay-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3BCF389164612A7A8E97C1681101E91 /* Sources */ = {
+		D685A6B79E548068F9A58D0A23F3DADE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA33765883C2FE26D19FA03E70F207E /* Pods-DryAlipay-iOS_Example-dummy.m in Sources */,
+				80546A94410E34E93502D02B85B13746 /* DryAlipay-iOS-dummy.m in Sources */,
+				9D1C6E168CF39CC79CA3E64A5CEF946B /* DryAlipay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		75FFE18DAE70CED0347788D737774ABD /* PBXTargetDependency */ = {
+		1303B28FBC387E328BB6615E9DA2C7C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AlipaySDK-iOS";
 			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
-			targetProxy = 9199BE2BDA1DD75B92A0733AA549A75C /* PBXContainerItemProxy */;
+			targetProxy = CB4822A10B1BFB59C569500234276926 /* PBXContainerItemProxy */;
 		};
-		7F040C0C53D80541BBF887CD2FB45945 /* PBXTargetDependency */ = {
+		70B3DB1B71F219B7ECD612E5CD65D55B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DryAlipay-iOS";
 			target = 2CC5139C8DF2052124C0870EA01DFF9F /* DryAlipay-iOS */;
-			targetProxy = 66FBA3983FBC1000FF9E229386EB33FA /* PBXContainerItemProxy */;
+			targetProxy = 674FE83810CCC37928F0057CA1EF2D1B /* PBXContainerItemProxy */;
 		};
-		8B4376EB79FB4777E4172B99CE7C107B /* PBXTargetDependency */ = {
+		8042C42009BE95F9ED2AB47B6B411094 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AlipaySDK-iOS";
 			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
-			targetProxy = 018C010D6C7A1B856D0E20206D266D40 /* PBXContainerItemProxy */;
+			targetProxy = B40DC8E6D34633B0A88D528EA7BAFDFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+		02D46C947E1FEF1D49D00E00669784E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7B1C03A7D95CFD5EB7FD931D8737DD /* AlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B7155545576E314633E76BBCF865196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80D4BE1F13EEADE5A5E0F52AAD216C2 /* DryAlipay-iOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryAlipay_iOS;
+				PRODUCT_NAME = DryAlipay_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D3EF382F64B9649AFC4D6BC560AAD78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B64A6C338C474D6ABF68059FC12B595 /* DryAlipay-iOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
+				PRODUCT_MODULE_NAME = DryAlipay_iOS;
+				PRODUCT_NAME = DryAlipay_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -433,6 +512,102 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B895DC0AEC7F1E50A5B8E06346B5AFD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148AE6A841C178C59752B1E818975764 /* Pods-DryAlipay-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -471,80 +646,26 @@
 			};
 			name = Debug;
 		};
-		2EA03795B01D774F45092E30197F10B7 /* Debug */ = {
+		D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E80D4BE1F13EEADE5A5E0F52AAD216C2 /* DryAlipay-iOS.debug.xcconfig */;
+			baseConfigurationReference = FEF7C82D4F8C653988173E8DFC948B0F /* AlipaySDK-iOS.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
-				PRODUCT_MODULE_NAME = DryAlipay_iOS;
-				PRODUCT_NAME = DryAlipay_iOS;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		56C8767C298EFCCB85A2EBED2DF15EE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 148AE6A841C178C59752B1E818975764 /* Pods-DryAlipay-iOS_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DryAlipay-iOS_Example/Pods-DryAlipay-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		629F55A72E0B5E2B9470DE5CA7215F43 /* Release */ = {
+		E266D9C916D1D0A765EC53A6B47F0277 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 710495234B6CEA22AA70D6BD3D1BAC9C /* Pods-DryAlipay-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -566,127 +687,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A0F052D5A8EE05A7189E03812B02B500 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEF7C82D4F8C653988173E8DFC948B0F /* AlipaySDK-iOS.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F7B1C03A7D95CFD5EB7FD931D8737DD /* AlipaySDK-iOS.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CFEFA062198B4BD6C71DAD9CC47850AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B64A6C338C474D6ABF68059FC12B595 /* DryAlipay-iOS.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/DryAlipay-iOS/DryAlipay-iOS.modulemap";
-				PRODUCT_MODULE_NAME = DryAlipay_iOS;
-				PRODUCT_NAME = DryAlipay_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -697,11 +697,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FF0F6A66BA9AAEDEC2ABDE50C20E57F /* Build configuration list for PBXNativeTarget "Pods-DryAlipay-iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B895DC0AEC7F1E50A5B8E06346B5AFD0 /* Debug */,
+				E266D9C916D1D0A765EC53A6B47F0277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F48FB6FB4E053236BD2B17D90C909A /* Build configuration list for PBXNativeTarget "DryAlipay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7155545576E314633E76BBCF865196 /* Debug */,
+				6D3EF382F64B9649AFC4D6BC560AAD78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196DFA3E4A09A28224918543529A1885 /* Debug */,
-				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -709,26 +727,8 @@
 		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */,
-				A0F052D5A8EE05A7189E03812B02B500 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4D4013F6BA3F68AE8C5417C2649ADE47 /* Build configuration list for PBXNativeTarget "DryAlipay-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2EA03795B01D774F45092E30197F10B7 /* Debug */,
-				CFEFA062198B4BD6C71DAD9CC47850AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F1207D2DE93975E045E4336BD3A753E /* Build configuration list for PBXNativeTarget "Pods-DryAlipay-iOS_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				56C8767C298EFCCB85A2EBED2DF15EE4 /* Debug */,
-				629F55A72E0B5E2B9470DE5CA7215F43 /* Release */,
+				02D46C947E1FEF1D49D00E00669784E4 /* Debug */,
+				D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
