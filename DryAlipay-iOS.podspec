@@ -6,8 +6,9 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 # 提交仓库:
-# pod spec lint DryAlipay-iOS.podspec --allow-warnings --use-libraries
-# pod trunk push DryAlipay-iOS.podspec --allow-warnings --use-libraries
+# pod cache clean --all
+# pod spec lint DryAlipay-iOS.podspec --allow-warnings --use-libraries --skip-import-validation
+# pod trunk push DryAlipay-iOS.podspec --allow-warnings --use-libraries --skip-import-validation
 #
 
 Pod::Spec.new do |s|
